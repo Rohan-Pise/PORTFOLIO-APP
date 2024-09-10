@@ -17,7 +17,7 @@ function Projects() {
       logo:Pfio,
       name:"Portfolio Website",
       description:"It is a Website which uses react to showcase varoius aspects of my Journey ,IT uses React a javascript library to build reusable components and put all the components together to make a fully-fledged single page Application along with it Tailwind CSS is a highly customizable, utility-first CSS framework designed to rapidly build custom user interfaces. Unlike traditional CSS frameworks (like Bootstrap), which provide pre-designed components, Tailwind provides low-level utility classes that can be combined to build any design directly in your markup.",
-       link:"https://github.com/Rohan-Pise/NoteNest"
+       link:"https://github.com/Rohan-Pise/PORTFOLIO-APP/tree/main/Frontend/Portfolio"
     },
     {
       id:3,
