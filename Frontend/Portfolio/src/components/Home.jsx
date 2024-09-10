@@ -77,7 +77,7 @@ function Home() {
                     {" "}
                     <BsLinkedin />{" "}
                   </li>
-                  <li className="cursor-pointerhover:scale-150 duration-300 text-2xl">
+                  <li className="cursor-pointer hover:scale-150 duration-300 text-2xl">
                     {" "}
                     <FaSquareInstagram />{" "}
                   </li>
@@ -88,7 +88,7 @@ function Home() {
                     {" "}
                     <FaSquareGithub />{" "}
                   </li>
-                  <li className="cursor-pointerhover:scale-150 duration-300 text-2xl">
+                  <li className="cursor-pointer hover:scale-150 duration-300 text-2xl">
                     <IoLogoWhatsapp />
                   </li>
                 </ul>
@@ -100,7 +100,7 @@ function Home() {
                     {" "}
                     <RiJavaLine />{" "}
                   </li>
-                  <li className="cursor-pointerhover:scale-150 duration-300 text-2xl">
+                  <li className="cursor-pointer hover:scale-150 duration-300 text-2xl">
                     {" "}
                     <IoLogoJavascript />{" "}
                   </li>
