@@ -54,7 +54,7 @@ function Contacts() {
       onSubmit={handleSubmit(onSubmit)}
      //</div> action="https://getform.io/f/amdpolxb" 
      //method='POST' 
-     className='bg-slate-200  w-[21rem] flex flex-col items-center rounded-md mt-4 pb-4 pt-4 text-sm font-normal'>
+     className='bg-slate-200  w-80 flex flex-col items-center rounded-md mt-4 pb-4 pt-4 text-sm font-normal'>
         <h1 className='text-lg mb-6'>Send Your Message</h1>
         <div className='text-xl'>
 
@@ -64,7 +64,7 @@ function Contacts() {
 
           <input
            {...register("name", { required: true })} 
-          className= 'rounded-md font-normal ' type="text"  placeholder='' name='name' />
+          className= 'rounded-md font-light ' type="text"  placeholder='' name='name' />
            {errors.name && <span className='text-sm pl-1'>required*</span>}
           <br />
 
