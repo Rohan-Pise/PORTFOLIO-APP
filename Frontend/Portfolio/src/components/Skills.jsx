@@ -1,12 +1,12 @@
 import React from 'react'
-import java from '../../public/java.png'
-import javascript from '../../public/javascript.png'
-import html from '../../public/html.png'
-import css from '../../public/css.jpg'
-import mongodb from '../../public/mongodb.jpg'
-import node from'../../public/node.png'
-import express from'../../public/express.png'
-import react from '../../public/reactjs.png'
+import java from '/java.png'
+import javascript from '/javascript.png'
+import html from '/html.png'
+import css from '/css.jpg'
+import mongodb from '/mongodb.jpg'
+import node from'/node.png'
+import express from'/express.png'
+import react from '/reactjs.png'
 
 function Skills() {
   const skillSet=[

@@ -1,7 +1,7 @@
 import React from 'react'
-import NoteNest from '../../public/NoteNest.mp4'
-import Wapp from '../../public/Wapp.mp4'
-import Pfio from '../../public/Pfio.mp4'
+import NoteNest from '/NoteNest.mp4'
+import Wapp from '/Wapp.mp4'
+import Pfio from '/Pfio.mp4'
 
 function Projects() {
  const cardItems=[

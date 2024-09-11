@@ -10,7 +10,7 @@ import { FaNodeJs } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import pic from "../../public/Pic.JPG";
+import pic from "/Pic.jpg";
 import { ReactTyped } from "react-typed";
 
 function Home() {
