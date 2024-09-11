@@ -33,7 +33,22 @@ function Contacts() {
     <div name='Contact'
      className="w-full px-4 py-2 md:px-15  md:items-center  h-auto my-20  ">
     <h1 className='text-3xl mb-5'>Contact Me</h1>
-    <span className='text-lg'>Please fill the form given below to contact me</span>
+
+    <p className='text-lg mb-2'> <span className=''>Email-id</span> : <a href="mailto:rohanpise1008@gmail.com" 
+    target='_blank'><span className='text-blue-500 hover:underline'>rohanpise1008@gmail.com</span></a></p>
+
+ <p className='text-lg mb-2'> <span className=''>Linkedin</span> : <a href="https://linkedin.com/in/rohan-pise-1b7b80244" 
+ target='_blank'>     <span className='text-blue-500 hover:underline'>Rohan Pise</span></a></p>
+
+<p className='text-lg mb-2'> <span className=''>Contact No</span> : <a href="tel:+919209110723" 
+ target='_blank'>     <span className='text-blue-500 '>9209110723</span></a></p>
+
+{/* Button */}
+<button onClick={()=>window.open('https://drive.google.com/file/d/1ZxzOGCL489cjkRyNPVPiYQX0L7BhLMeV/view?usp=sharing','_blank')} className='text-sm p-3 bg-green-600 text-white hover:bg-green-700 shadow-lg rounded-lg mt-1 mb-3'>Get-Resume</button>
+
+{/*form start */}
+
+    <p className='text-2xl mt-4 mb-2'>Please fill the form given below to contact me</p>
     <div className='text-lg flex flex-col  items-center'>
       <form 
       onSubmit={handleSubmit(onSubmit)}
@@ -77,7 +92,7 @@ function Contacts() {
         </div>
         <button type='submit' className='bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300'>Send</button>
       </form>
-      <button onClick={()=>window.open('https://drive.google.com/file/d/1ZxzOGCL489cjkRyNPVPiYQX0L7BhLMeV/view?usp=sharing','_blank')} className='text-lg p-3 bg-green-500 text-white hover:bg-green-700 shadow-lg rounded-lg mt-6'>Get-Resume</button>
+      
     </div>
       
     </div>
