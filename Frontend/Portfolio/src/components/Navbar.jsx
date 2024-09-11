@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import pic from "../../public/Pic.JPG"
+import pic from "../../public/Pic.jpg"
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import {Link} from 'react-scroll'
