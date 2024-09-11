@@ -54,7 +54,7 @@ function Contacts() {
       onSubmit={handleSubmit(onSubmit)}
      //</div> action="https://getform.io/f/amdpolxb" 
      //method='POST' 
-     className='bg-slate-200 pl-1 w-96 flex flex-col items-center rounded-md mt-4 pb-4 pt-4 text-sm font-normal'>
+     className='bg-slate-200  w-[21rem] flex flex-col items-center rounded-md mt-4 pb-4 pt-4 text-sm font-normal'>
         <h1 className='text-lg mb-6'>Send Your Message</h1>
         <div className='text-xl'>
 
